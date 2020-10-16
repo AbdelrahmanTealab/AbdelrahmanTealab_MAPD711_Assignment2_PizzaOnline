@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">AbdelrahmanTealab_MAPD711_Assignment2_PizzaOnline</string>
     <string name="backgroundpizza">backgroundpizza</string>
-    <string name="order">Order</string>
-    <string name="location">Location</string>
+    <string name="description">The restaurant\'s reputation rests on its thin-crust pizzas (white or whole wheat) topped with high-quality ingredients and baked in a wood fire.</string>
+    <string name="cheese">Cheese</string>
+    <string name="size_pizza_name">Size Pizza Name</string>
+    <string name="green_pepper">Green Pepper</string>
+    <string name="smoked_ham">Smoked Ham</string>
+    <string name="spinach">Spinach</string>
+    <string name="black_olives">Black Olives</string>
+    <string name="spanish_onions">Spanish Onions</string>
+    <string name="check_out">Check Out</string>
+    <string name="customer_information">Customer information</string>
+    <string name="submit">SUBMIT</string>
 </resources>

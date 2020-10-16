@@ -2,6 +2,5 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aldrich</item>
-        <item>@font/nixie_one</item>
     </array>
 </resources>
