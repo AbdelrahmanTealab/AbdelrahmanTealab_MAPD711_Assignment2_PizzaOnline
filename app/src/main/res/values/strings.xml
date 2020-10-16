@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AbdelrahmanTealab_MAPD711_Assignment2_PizzaOnline</string>
+    <string name="backgroundpizza">backgroundpizza</string>
+    <string name="order">Order</string>
+    <string name="location">Location</string>
 </resources>

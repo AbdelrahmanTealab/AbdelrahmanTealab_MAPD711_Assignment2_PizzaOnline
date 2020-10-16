@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="transparentBar">#22ffffff</color>
+    <color name="neonText">#dd61ff</color>
+    <color name="transparentBarCenter">#22ff4a4f</color>
+    <color name="barStroke">#55ff1a1f</color>
+
 </resources>
