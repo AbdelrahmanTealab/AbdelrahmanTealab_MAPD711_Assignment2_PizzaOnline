@@ -1,3 +1,6 @@
+//Abdelrahman Tealab
+//301164103
+
 package com.example.abdelrahmantealab_mapd711_assignment2_pizzaonline
 
 import android.content.Intent
@@ -17,6 +20,9 @@ class CheckingOut : AppCompatActivity() {
     }
 
     fun submitPressed(view: View){
+        //when submit button or (ORDER) button is pressed, i do a simple validity check
+        //to make sure that all the fields have input in them, otherwise a feedback
+        //will be provided for the user to enforce them to fill in the fields.
 
         var fullName:EditText = findViewById(R.id.fullName)
         var streetAddress:EditText = findViewById(R.id.streetAddress)
@@ -26,6 +32,7 @@ class CheckingOut : AppCompatActivity() {
         var cardType:EditText = findViewById(R.id.cardType)
         var expiryDate:EditText = findViewById(R.id.expiryDate)
 
+        //i used Toasts and Hints to tell the user which field needs attention
         if (fullName.text.isEmpty()){
             val toast = Toast.makeText(applicationContext, "fullname is empty!", Toast.LENGTH_SHORT)
             toast.show()
@@ -65,6 +72,9 @@ class CheckingOut : AppCompatActivity() {
             val toast = Toast.makeText(applicationContext, "congrats!!", Toast.LENGTH_SHORT)
             toast.show()
 
+            //when everything is valid, i pass on the variables that i need for the next screen which will be
+            //pizza size, type, toppings, and also from this activity, fullname and address so they can be displayed
+            //in the final screen
             val pizzaSize = intent.extras?.getString("pizzaSize")
             val pizzaType = intent.extras?.getString("pizzaType")
             val myToppings = intent.extras?.getStringArrayList("myToppings")

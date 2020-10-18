@@ -2,5 +2,11 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aldrich</item>
+        <item>@font/allura</item>
+        <item>@font/condiment</item>
+        <item>@font/courgette</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/englebert</item>
+        <item>@font/redressed</item>
     </array>
 </resources>

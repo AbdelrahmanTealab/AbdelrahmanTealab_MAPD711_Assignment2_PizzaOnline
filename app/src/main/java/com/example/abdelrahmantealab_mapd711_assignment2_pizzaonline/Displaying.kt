@@ -1,3 +1,6 @@
+//Abdelrahman Tealab
+//301164103
+
 package com.example.abdelrahmantealab_mapd711_assignment2_pizzaonline
 
 import android.content.Intent
@@ -11,6 +14,8 @@ class Displaying : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_display)
 
+        //this activity only displays the information that the user has input based on the previous activities
+        //and also i added a button to make it possible for the user to go back to home screen
         val pizzaSize = intent.extras?.getString("pizzaSize")
         val pizzaType = intent.extras?.getString("pizzaType")
         val myToppings = intent.extras?.getStringArrayList("myToppings")
@@ -28,6 +33,8 @@ class Displaying : AppCompatActivity() {
         sizeOfPizza.setText(pizzaSize)
         customerAddress.setText(streetAddress)
 
+        //in this loop, i add the elements of my array to the textview and separate them by a comma when there's
+        //another element following it in the array
         for (topping in myToppings!!)
         {
             toppingDis.append(topping)

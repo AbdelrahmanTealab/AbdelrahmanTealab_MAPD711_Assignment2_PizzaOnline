@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/display_bg"
     tools:context=".Displaying">
 
     <TextView
         android:id="@+id/displayTitle"
         android:layout_width="410dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/aldrich"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/eagle_lake"
         android:gravity="center"
-        android:paddingBottom="30dp"
         android:text="Order Complete"
         android:textAlignment="center"
+        android:textColor="#F9EEBA"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -25,6 +27,8 @@
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -41,36 +45,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich"
-                android:text="Customer name:" />
+                android:fontFamily="@font/eagle_lake"
+                android:text="Customer name:"
+                android:textColor="#F9EEBA" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich"
-                android:text="Customer address:" />
+                android:fontFamily="@font/eagle_lake"
+                android:text="Customer address:"
+                android:textColor="#F9EEBA" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich"
-                android:text="Type of pizza:" />
+                android:fontFamily="@font/eagle_lake"
+                android:text="Type of pizza:"
+                android:textColor="#F9EEBA" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich"
-                android:text="Size of pizza:" />
+                android:fontFamily="@font/eagle_lake"
+                android:text="Size of pizza:"
+                android:textColor="#F9EEBA" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich"
-                android:text="Toppings:" />
+                android:fontFamily="@font/eagle_lake"
+                android:text="Toppings:"
+                android:textColor="#F9EEBA" />
 
         </LinearLayout>
 
@@ -85,35 +94,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich" />
+                android:fontFamily="@font/eagle_lake"
+                android:textColor="#FB5255" />
 
             <TextView
                 android:id="@+id/customerAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich" />
+                android:fontFamily="@font/eagle_lake"
+                android:textColor="#FB5255" />
 
             <TextView
                 android:id="@+id/typeOfPizza"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich" />
+                android:fontFamily="@font/eagle_lake"
+                android:textColor="#FB5255" />
 
             <TextView
                 android:id="@+id/sizeOfPizza"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich" />
+                android:fontFamily="@font/eagle_lake"
+                android:textColor="#FB5255" />
 
             <TextView
                 android:id="@+id/toppingDis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/aldrich" />
+                android:fontFamily="@font/eagle_lake"
+                android:textColor="#FB5255" />
 
         </LinearLayout>
     </LinearLayout>
@@ -121,10 +135,12 @@
     <TextView
         android:id="@+id/thanks"
         android:layout_width="242dp"
-        android:layout_height="80dp"
-        android:fontFamily="@font/aldrich"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eagle_lake"
+        android:gravity="center"
         android:text="Thank you for your online order. Your order successfully received and will be delivered soon."
         android:textAlignment="center"
+        android:textColor="#F9EEBA"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,10 +153,23 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/eagle_lake"
         android:onClick="homePressed"
         android:text="HOME"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="208dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thanks"
+        app:srcCompat="@drawable/buon" />
 </androidx.constraintlayout.widget.ConstraintLayout>

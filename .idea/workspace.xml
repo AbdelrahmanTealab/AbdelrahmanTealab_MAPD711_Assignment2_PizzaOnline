@@ -11,7 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc7a130-4c86-4f5d-9685-eda7361b37fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/ToppingsPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/display_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/toppings_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/allura.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/condiment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/courgette.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/eagle_lake.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/englebert.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/redressed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -22,19 +31,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/CheckingOut.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/CheckingOut.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/Displaying.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/Displaying.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/checkOut.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/CheckingOut.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/display.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/Displaying.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/toppings.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/ToppingsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abdelrahmantealab_mapd711_assignment2_pizzaonline/ToppingsPage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pizza_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pizza_bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_check_out.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_check_out.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_display.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_display.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_toppings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_toppings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/pizza_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/pizza_menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +81,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ResourceManagerPrefKey.ResourceType" value="COLOR" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -175,31 +184,36 @@
     </state>
     <state x="316" y="186" key="AndroidCreateResourceFileDialog/0.23.1440.801@0.23.1440.801" timestamp="1602877754390" />
     <state x="316" y="187" width="824" height="516" key="AndroidCreateResourceFileDialog/0.23.1440.804@0.23.1440.804" timestamp="1602818297112" />
-    <state x="581" y="274" key="AndroidCreateXmlResourceDialog" timestamp="1602883770493">
+    <state x="581" y="274" key="AndroidCreateXmlResourceDialog" timestamp="1602999186947">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="581" y="273" key="AndroidCreateXmlResourceDialog/0.23.1440.798@0.23.1440.798" timestamp="1602800830793" />
-    <state x="581" y="274" key="AndroidCreateXmlResourceDialog/0.23.1440.801@0.23.1440.801" timestamp="1602883770493" />
-    <state x="406" y="187" width="644" height="476" key="Downloadable.Font.Dialog.Size" timestamp="1602819477636">
+    <state x="581" y="274" key="AndroidCreateXmlResourceDialog/0.23.1440.801@0.23.1440.801" timestamp="1602999186947" />
+    <state x="406" y="186" width="644" height="476" key="Downloadable.Font.Dialog.Size" timestamp="1603003285657">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="406" y="186" width="644" height="476" key="Downloadable.Font.Dialog.Size/0.23.1440.801@0.23.1440.801" timestamp="1603003285657" />
+    <state x="406" y="187" width="644" height="476" key="Downloadable.Font.Dialog.Size/0.23.1440.804@0.23.1440.804" timestamp="1602819477636" />
+    <state width="1282" height="160" key="GridCell.Tab.0.bottom" timestamp="1602997972419">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="406" y="187" width="644" height="476" key="Downloadable.Font.Dialog.Size/0.23.1440.804@0.23.1440.804" timestamp="1602819477636" />
-    <state width="1282" height="160" key="GridCell.Tab.0.bottom" timestamp="1602892978588">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
     <state width="1282" height="160" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1602892978588" />
-    <state width="1282" height="160" key="GridCell.Tab.0.center" timestamp="1602892978587">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1282" height="160" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1602997972419" />
+    <state width="1282" height="160" key="GridCell.Tab.0.center" timestamp="1602997972419">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1282" height="160" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1602892978587" />
-    <state width="1282" height="160" key="GridCell.Tab.0.left" timestamp="1602892978586">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1282" height="160" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1602997972419" />
+    <state width="1282" height="160" key="GridCell.Tab.0.left" timestamp="1602997972418">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1282" height="160" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1602892978586" />
-    <state width="1282" height="160" key="GridCell.Tab.0.right" timestamp="1602892978588">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1282" height="160" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1602997972418" />
+    <state width="1282" height="160" key="GridCell.Tab.0.right" timestamp="1602997972419">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1282" height="160" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1602892978588" />
+    <state width="1282" height="160" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1602997972419" />
     <state width="1282" height="251" key="GridCell.Tab.1.bottom" timestamp="1602892531628">
       <screen x="0" y="23" width="1440" height="801" />
     </state>

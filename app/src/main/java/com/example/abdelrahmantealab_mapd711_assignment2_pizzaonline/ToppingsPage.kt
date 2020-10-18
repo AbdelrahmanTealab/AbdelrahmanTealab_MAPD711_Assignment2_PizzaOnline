@@ -1,3 +1,6 @@
+//Abdelrahman Tealab
+//301164103
+
 package com.example.abdelrahmantealab_mapd711_assignment2_pizzaonline
 
 import android.content.Intent
@@ -14,6 +17,10 @@ class ToppingsPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_toppings)
 
+        //over here in the toppings page i capture the variables from
+        //the previous activity and store them so i can display it
+        //nicely on the title of the activity and also pass it
+        //to next activities
         val pizzaSize = intent.extras?.getString("pizzaSize")
         val pizzaType = intent.extras?.getString("pizzaType")
 
@@ -23,6 +30,9 @@ class ToppingsPage : AppCompatActivity() {
     }
 
     fun checkOutPressed(view: View){
+        //when check out button is pressed, i store the text of the checkboxes
+        //into an array only if they are checked so i can pass them on
+        //to the next activity
 
         val cheese: CheckBox = findViewById(R.id.cheese)
         val greenPepper: CheckBox = findViewById(R.id.greenPepper)
@@ -42,6 +52,7 @@ class ToppingsPage : AppCompatActivity() {
             }
         }
 
+        //here i pass the pizza type, size, and toppings array to the next activity
         val intent2 = Intent(this, CheckingOut::class.java).apply {
             putStringArrayListExtra("myToppings",myToppings)
             putExtra("pizzaSize",pizzaSize)

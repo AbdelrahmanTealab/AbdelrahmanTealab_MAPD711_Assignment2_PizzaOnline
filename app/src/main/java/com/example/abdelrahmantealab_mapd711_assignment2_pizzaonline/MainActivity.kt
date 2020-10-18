@@ -1,3 +1,6 @@
+//Abdelrahman Tealab
+//301164103
+
 package com.example.abdelrahmantealab_mapd711_assignment2_pizzaonline
 
 import android.content.Intent
@@ -14,13 +17,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    //this is to create the menu on top right corner
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         var inflater:MenuInflater = getMenuInflater();
         inflater.inflate(R.menu.pizza_menu, menu)
         return true;
     }
 
+    //this is the function that gets executed when an item is selected
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        //i take the ID of the item and depending on what the item is then pass on the variables to the next activity
         when(item.itemId){
 
             R.id.smallMeatSupreme -> {
@@ -132,7 +139,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 startActivity(intent)
             }
-
+            //this line is just for debugging
             else -> print("unknown")
         }
         return super.onOptionsItemSelected(item)

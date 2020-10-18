@@ -4,16 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/toppings_bg"
     tools:context=".CheckingOut">
 
     <TextView
         android:id="@+id/checkTitle"
         android:layout_width="410dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/aldrich"
+        android:background="@color/formBG"
+        android:backgroundTint="#FADECB"
+        android:fontFamily="@font/eagle_lake"
         android:gravity="center"
         android:text="@string/customer_information"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -23,7 +27,9 @@
     <Button
         android:id="@+id/submit"
         android:layout_width="400dp"
-        android:layout_height="53dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/eagle_lake"
         android:onClick="submitPressed"
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,10 +38,11 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/formBG"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/submit"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkTitle">
 
@@ -43,9 +50,8 @@
             android:id="@+id/fullName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/eagle_lake"
             android:hint="Full Name"
             android:inputType="textPersonName" />
 
@@ -53,9 +59,8 @@
             android:id="@+id/streetAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/eagle_lake"
             android:hint="Street Address"
             android:inputType="textShortMessage|textAutoCorrect" />
 
@@ -63,9 +68,8 @@
             android:id="@+id/postalCode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/eagle_lake"
             android:hint="Postal Code"
             android:inputType="textPostalAddress" />
 
@@ -73,9 +77,8 @@
             android:id="@+id/phoneNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/eagle_lake"
             android:hint="Telephone number"
             android:inputType="phone" />
 
@@ -83,9 +86,8 @@
             android:id="@+id/creditCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/eagle_lake"
             android:hint="Credit Card Number"
             android:inputType="number" />
 
@@ -93,9 +95,8 @@
             android:id="@+id/cardType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/eagle_lake"
             android:hint="Card Type"
             android:inputType="textPersonName" />
 
@@ -103,9 +104,8 @@
             android:id="@+id/expiryDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:ems="10"
+            android:fontFamily="@font/eagle_lake"
             android:hint="Expiry Date"
             android:inputType="date" />
     </LinearLayout>

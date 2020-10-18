@@ -4,26 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/toppings_bg"
     tools:context=".ToppingsPage">
 
     <TextView
-        android:id="@+id/pizzaTitle"
+        android:id="@+id/pizzaTitle3"
         android:layout_width="410dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/aldrich"
+        android:background="@color/formBG"
+        android:backgroundTint="#FADECB"
+        android:backgroundTintMode="src_atop"
+        android:fontFamily="@font/eagle_lake"
         android:gravity="center"
-        android:text="@string/size_pizza_name"
+        android:text="@string/add_toppings_to_your"
         android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/pizzaTitle"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:background="@color/formBG"
+        android:backgroundTint="#FADECB"
+        android:backgroundTintMode="src_atop"
+        android:fontFamily="@font/eagle_lake"
+        android:gravity="center"
+        android:text="@string/size_pizza_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pizzaTitle3" />
+
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="2dp"
+        android:background="@color/formBG"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/checkOut"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/aldrich"
+            android:fontFamily="@font/eagle_lake"
             android:text="@string/cheese"
             android:textSize="24sp" />
 
@@ -48,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/aldrich"
+            android:fontFamily="@font/eagle_lake"
             android:text="@string/green_pepper"
             android:textSize="24sp" />
 
@@ -58,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/aldrich"
+            android:fontFamily="@font/eagle_lake"
             android:text="@string/smoked_ham"
             android:textSize="24sp" />
 
@@ -68,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/aldrich"
+            android:fontFamily="@font/eagle_lake"
             android:text="@string/spinach"
             android:textSize="24sp" />
 
@@ -78,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/aldrich"
+            android:fontFamily="@font/eagle_lake"
             android:text="@string/black_olives"
             android:textSize="24sp" />
 
@@ -88,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:fontFamily="@font/aldrich"
+            android:fontFamily="@font/eagle_lake"
             android:text="@string/spanish_onions"
             android:textSize="24sp" />
 
@@ -98,6 +122,9 @@
         android:id="@+id/checkOut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:backgroundTintMode="src_atop"
+        android:fontFamily="@font/eagle_lake"
         android:onClick="checkOutPressed"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
