@@ -10,42 +10,12 @@
         <menu>
             <group
                 android:checkableBehavior="single">
-                <item android:title="small">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="medium">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="large">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
+                <item android:title="small"
+                    android:id="@+id/smallMeatSupreme"></item>
+                <item android:title="medium"
+                    android:id="@+id/mediumMeatSupreme"></item>
+                <item android:title="large"
+                    android:id="@+id/largeMeatSupreme"></item>
             </group>
         </menu>
     </item>
@@ -57,42 +27,12 @@
         <menu>
             <group
                 android:checkableBehavior="single">
-                <item android:title="small">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="medium">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="large">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
+                <item android:title="small"
+                    android:id="@+id/smallSuperHawaiian"></item>
+                <item android:title="medium"
+                    android:id="@+id/mediumSuperHawaiian"></item>
+                <item android:title="large"
+                    android:id="@+id/largeSuperHawaiian"></item>
             </group>
         </menu>
     </item>
@@ -104,42 +44,12 @@
         <menu>
             <group
                 android:checkableBehavior="single">
-                <item android:title="small">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="medium">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="large">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
+                <item android:title="small"
+                    android:id="@+id/smallVeggie"></item>
+                <item android:title="medium"
+                    android:id="@+id/mediumVeggie"></item>
+                <item android:title="large"
+                    android:id="@+id/largeVeggie"></item>
             </group>
         </menu>
     </item>
@@ -151,42 +61,12 @@
         <menu>
             <group
                 android:checkableBehavior="single">
-                <item android:title="small">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="medium">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="large">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
+                <item android:title="small"
+                    android:id="@+id/smallMediterranean"></item>
+                <item android:title="medium"
+                    android:id="@+id/mediumMediterranean"></item>
+                <item android:title="large"
+                    android:id="@+id/largeMediterranean"></item>
             </group>
         </menu>
     </item>
@@ -198,42 +78,12 @@
         <menu>
             <group
                 android:checkableBehavior="single">
-                <item android:title="small">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="medium">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
-                <item android:title="large">
-                    <menu>
-                        <group android:checkableBehavior="all">
-                            <item android:title="Cheese"/>
-                            <item android:title="Green Pepper"/>
-                            <item android:title="Smoked Ham"/>
-                            <item android:title="Spinach"/>
-                            <item android:title="Black Olives"/>
-                            <item android:title="Spanish Onions"/>
-                        </group>
-                    </menu>
-                </item>
+                <item android:title="small"
+                    android:id="@+id/smallCheddar"></item>
+                <item android:title="medium"
+                    android:id="@+id/mediumCheddar"></item>
+                <item android:title="large"
+                    android:id="@+id/largeCheddar"></item>
             </group>
         </menu>
     </item>

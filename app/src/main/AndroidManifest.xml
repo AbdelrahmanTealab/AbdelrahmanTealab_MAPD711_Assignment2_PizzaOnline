@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".checkOut"></activity>
-        <activity android:name=".display" />
-        <activity android:name=".toppings" />
+        <activity android:name=".CheckingOut"/>
+        <activity android:name=".Displaying" />
+        <activity android:name=".ToppingsPage" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
